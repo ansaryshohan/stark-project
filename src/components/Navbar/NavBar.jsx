@@ -20,7 +20,7 @@ const NavBar = () => {
     <Navbar
       expand="lg"
       className={`position-fixed w-100 z-3 ${
-        scrollColor ? "bg-warning" : "bg-body-tertiary "
+        scrollColor ? "bg-warning-subtle" : "bg-transparent"
       }`}
     >
       <Container className="d-flex gap-2 align-items-center">
